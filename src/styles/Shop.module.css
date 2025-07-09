@@ -1,0 +1,99 @@
+.shop {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdfd;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background-color: #fff7fa;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #e673a7;
+  margin-bottom: 1rem;
+}
+
+.search {
+  padding: 0.7rem 1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem 3rem;
+}
+
+.productCard {
+  background-color: #fffafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.productCard img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.productCard h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.productCard p {
+  font-weight: bold;
+  color: #e673a7;
+}
+
+.productCard button {
+  margin-top: 0.5rem;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.productCard button:first-of-type {
+  background-color: #e673a7;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.productCard button:first-of-type:hover {
+  background-color: #d05e94;
+}
+
+.buyNowBtn {
+  background-color: #b22222;
+  color: #fff;
+}
+
+.buyNowBtn:hover {
+  background-color: #8b1a1a;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff1f4;
+  color: #555;
+}

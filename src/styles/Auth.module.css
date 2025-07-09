@@ -1,0 +1,75 @@
+.authPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #fff8fb;
+  padding: 2rem;
+}
+
+.authForm {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.authForm h2 {
+  margin-bottom: 1.5rem;
+  color: #e673a7;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.authForm label {
+  display: block;
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.authForm input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.authButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #e673a7;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.authButton:hover {
+  background-color: #d05e94;
+}
+
+.authSwitch {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.authSwitch a {
+  color: #e673a7;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.authSwitch a:hover {
+  text-decoration: underline;
+}
