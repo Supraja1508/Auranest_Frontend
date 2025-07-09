@@ -15,7 +15,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleBuyNow = (product) => {
-    navigate('/checkout', {
+    navigate('Auranest_Frontend_Frontend/checkout', {
       state: { product: { ...product, quantity: 1 } }
     });
   };
@@ -39,18 +39,18 @@ const Home = () => {
           className={styles.swiper}
         >
           <SwiperSlide>
-            <img src="https://raw.githubusercontent.com/ShivaHariny07/auranest/main/pictures/hero-1.jpg" alt="Slide 1" />
+            <img src="https://raw.githubusercontent.com/ShivaHariny07/Auranest_Frontend/main/pictures/hero-1.jpg" alt="Slide 1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://raw.githubusercontent.com/ShivaHariny07/auranest/main/pictures/hero-1.jpg" alt="Slide 2" />
+            <img src="https://raw.githubusercontent.com/ShivaHariny07/Auranest_Frontend/main/pictures/hero-1.jpg" alt="Slide 2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://raw.githubusercontent.com/ShivaHariny07/auranest/main/pictures/hero-1.jpg" alt="Slide 3" />
+            <img src="https://raw.githubusercontent.com/ShivaHariny07/Auranest_Frontend/main/pictures/hero-1.jpg" alt="Slide 3" />
           </SwiperSlide>
         </Swiper>
 
         <div className={styles.sliderText}>
-          <h1>Welcome to <span>AuraNest</span></h1>
+          <h1>Welcome to <span>Auranest_Frontend</span></h1>
           <p>Your skin deserves the best. Shop natural, cruelty-free beauty essentials.</p>
         </div>
       </section>
@@ -60,7 +60,7 @@ const Home = () => {
         <h2>Best Sellers</h2>
         <div className={styles.productGrid}>
           {products.map((p) => (
-  <div key={p.id} onClick={() => navigate(`/AuraNest/product/${p.id}`)} className={styles.productCard}>
+  <div key={p.id} onClick={() => navigate(`/Auranest_Frontend_Frontend/product/${p.id}`)} className={styles.productCard}>
     <img src={p.image} alt={p.name} />
     <h3>{p.name}</h3>
     <p>₹{p.price.toFixed(2)}</p>
@@ -75,17 +75,17 @@ const Home = () => {
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           <div className={styles.footerBrand}>
-            <h2>AuraNest</h2>
+            <h2>Auranest_Frontend</h2>
             <p>Your beauty, our passion. Explore premium cosmetics curated just for you.</p>
           </div>
 
           <div className={styles.footerLinks}>
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="/AuraNest/shop">Shop</a></li>
-              <li><a href="/AuraNest/about">About Us</a></li>
-              <li><a href="/AuraNest/blog">Beauty Blog</a></li>
-              <li><a href="/AuraNest/contact">Contact</a></li>
+              <li><a href="/Auranest_Frontend/shop">Shop</a></li>
+              <li><a href="/Auranest_Frontend/about">About Us</a></li>
+              <li><a href="/Auranest_Frontend/blog">Beauty Blog</a></li>
+              <li><a href="/Auranest_Frontend/contact">Contact</a></li>
             </ul>
           </div>
 
@@ -110,7 +110,7 @@ const Home = () => {
         </div>
 
         <div className={styles.footerBottom}>
-          <p>&copy; {new Date().getFullYear()} AuraNest. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Auranest_Frontend. All rights reserved.</p>
         </div>
       </footer>
     </div>

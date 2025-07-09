@@ -61,7 +61,7 @@ const Checkout = () => {
           icon: 'success',
           confirmButtonText: 'Continue Shopping',
         }).then(() => {
-          navigate('/');
+          navigate('/Auranest_Frontend');
         });
       }
     });

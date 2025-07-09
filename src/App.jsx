@@ -22,16 +22,16 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/AuraNest" element={<Home/>}/>
-        <Route path="/AuraNest/shop" element={<Shop />} />
-        <Route path="/AuraNest/contact" element={<Contact />} />
-        <Route path="/AuraNest/cart" element={<Cart />} />
-        <Route path="/AuraNest/checkout" element={<Checkout />} />
-        <Route path="/AuraNest/product/:id" element={<ProductDetails />} />
-        <Route path="/AuraNest/blog" element={<Blog />} />
-        <Route path="/AuraNest/about" element={<About />} />
-        <Route path="/AuraNest/login" element={<Login />} />
-        <Route path="/AuraNest/signup" element={<Signup />} />
+        <Route path="/Auranest_Frontend" element={<Home/>}/>
+        <Route path="/Auranest_Frontend/shop" element={<Shop />} />
+        <Route path="/Auranest_Frontend/contact" element={<Contact />} />
+        <Route path="/Auranest_Frontend/cart" element={<Cart />} />
+        <Route path="/Auranest_Frontend/checkout" element={<Checkout />} />
+        <Route path="/Auranest_Frontend/product/:id" element={<ProductDetails />} />
+        <Route path="/Auranest_Frontend/blog" element={<Blog />} />
+        <Route path="/Auranest_Frontend/about" element={<About />} />
+        <Route path="/Auranest_Frontend/login" element={<Login />} />
+        <Route path="/Auranest_Frontend/signup" element={<Signup />} />
       </Routes>
     </>
   );

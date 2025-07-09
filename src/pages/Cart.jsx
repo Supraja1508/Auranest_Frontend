@@ -20,7 +20,7 @@ const Cart = () => {
           />
           <h2>Your cart is empty</h2>
           <p>Looks like you haven’t added anything yet.</p>
-          <Link to="/shop">
+          <Link to="/Auranest_Frontend/shop">
             <button className={styles.shopBtn}>Start Shopping</button>
           </Link>
         </div>
